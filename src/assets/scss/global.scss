@@ -1,0 +1,31 @@
+@import './form';
+@import './card';
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+* {
+  outline: none;
+}
+
+p {
+  margin: 5px 0px 5px 0px;
+}
+
+button,
+input[type="submit"] {
+  height: 30px;
+  font-size: 14px;
+
+  color: white;
+  background-color: rgb(68, 70, 84);
+
+  border: none;
+  border-radius: 10px;
+
+  &.danger {
+    background-color: red;
+  }
+}
