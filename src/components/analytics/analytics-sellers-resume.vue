@@ -18,7 +18,7 @@ import { mapGetters } from 'vuex'
 export default {
   computed: {
     ...mapGetters('sellers', { sellers: 'all' }),
-    ...mapGetters('analytics', { ownSalesResume: 'ownSalesResume', sellersResume: 'sellersResume' }),
+    ...mapGetters('analytics', { ownSalesResume: 'ownSalesResume', sellersResume: 'sellersResume' })
   }
 }
 </script>

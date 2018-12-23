@@ -132,17 +132,16 @@ export default {
     saveSale (e) {
       e.preventDefault()
       if (!this.$v.$invalid) {
-
-        if(!this.seller) this.commission = 0
+        if (!this.seller) this.commission = 0
 
         this.save({
           date: this.date,
           value: this.value,
           cost: this.jewel.cost,
           jewel: this.jewel.uuid,
-          seller: this.seller.uuid,
           quantity: this.quantity,
-          commission: this.commission,
+          seller: this.seller.uuid,
+          commission: this.commission
         })
 
         this.clear()

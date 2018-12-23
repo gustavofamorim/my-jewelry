@@ -36,12 +36,11 @@ export default {
       return this.jewels[this.sale.jewel]
     },
     seller () {
-      if(this.sale.seller) {
+      if (this.sale.seller) {
         return this.sellers[this.sale.seller]
       } else {
-        return { name: 'Venda Própria'}
+        return { name: 'Venda Própria' }
       }
-
     },
     category () {
       return this.categories[this.jewel.category]

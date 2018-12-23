@@ -2,7 +2,7 @@
 import Vue from 'vue'
 
 import defaultState from './state'
-console.log(defaultState);
+
 export default {
   add (state, data) {
     if (data.constructor !== Array) {

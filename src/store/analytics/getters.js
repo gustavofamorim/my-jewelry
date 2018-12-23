@@ -84,8 +84,8 @@ export default {
       let sale = rootState.sales.sales[id]
 
       if (sale.seller) {
-        if(!resume[sale.seller]){
-            resume[sale.seller] = {
+        if (!resume[sale.seller]) {
+          resume[sale.seller] = {
             toPay: 0,
             quantity: 0,
             netProfit: 0,

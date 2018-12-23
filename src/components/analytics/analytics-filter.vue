@@ -27,14 +27,14 @@ export default {
   watch: {
     filter: {
       deep: true,
-      handler: function(val) {
+      handler: function (val) {
         this.end = val.end
         this.start = val.start
       }
     }
   },
   mounted () {
-    if(!this.filter.start && !this.filter.end) {
+    if (!this.filter.start && !this.filter.end) {
       this.resetFilter()
     } else {
       this.end = this.filter.end
@@ -56,7 +56,7 @@ export default {
     updateFilter () {
       this.syncFilter({
         end: this.end,
-        start: this.start,
+        start: this.start
       })
     }
   }
