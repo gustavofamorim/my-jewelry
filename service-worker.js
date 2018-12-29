@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.11e4f06c502afbf0e117e4ece27af7fc.js"
+  "/precache-manifest.9982d30824832b7fb6b7140498cd414f.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "my-jewelry"});
