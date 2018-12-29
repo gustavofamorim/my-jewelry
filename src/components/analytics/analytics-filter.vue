@@ -73,6 +73,9 @@ export default {
   grid-template-columns: 1fr 35px 1fr;
 
   input[type="date"] {
+
+    text-align: center;
+
     &:first-child {
       grid-area: start;
     }
